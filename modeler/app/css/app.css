@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  font-size: 12px;
+
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.content,
+.content > div {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.content > .message {
+  text-align: center;
+  display: table;
+
+  font-size: 16px;
+  color: #111;
+}
+
+.content > .message .note {
+  vertical-align: middle;
+  text-align: center;
+  display: table-cell;
+}
+
+.content .error .details {
+  max-width: 500px;
+  font-size: 12px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.content .error pre {
+  border: solid 1px #CCC;
+  background: #EEE;
+  padding: 10px;
+}
+
+.content:not(.with-error) .error,
+.content.with-error .intro,
+.content.with-diagram .intro {
+  display: none;
+}
+
+
+.content .canvas,
+.content.with-error .canvas {
+  visibility: hidden;
+}
+
+.content.with-diagram .canvas {
+  visibility: visible;
+}
+
+.buttons {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.buttons2 {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+
+.buttons > li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.buttons > li > a {
+  background: #DDD;
+  border: solid 1px #666;
+  display: inline-block;
+  padding: 5px;
+}
+
+.buttons a {
+  opacity: 0.3;
+}
+
+.buttons a.active {
+  opacity: 1.0;
+}
+
+
+.buttons2 > li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+.buttons2 > li > a {
+  background: #DDD;
+  border: solid 1px #666;
+  display: inline-block;
+  padding: 5px;
+}
+
+.buttons2 a {
+  opacity: 0.3;
+}
+
+.buttons2 a.active {
+  opacity: 1.0;
+}
+
+
+.fixed-div {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  z-index: 999;
+}
+
+
+ /* speradores*/
+ hr.rounded {
+  border-top: 8px solid #bbb;
+  border-radius: 5px;
+}
+
+/* form horizontal */
+.form-inline {
+padding-top: 30px;
+padding-left: 10px;
+padding-bottom: 5px;
+display: flex;
+flex-flow: row wrap;
+align-items: center;
+}
+
+/* labels*/
+.form-inline label {
+margin: 5px 10px 5px 0;
+}
+
+/* input */
+.form-inline input {
+vertical-align: middle;
+margin: 5px 10px 5px 0;
+padding: 10px;
+background-color: #fff;
+border: 1px solid #ddd;
+}
+
+/* buttoes */
+.form-inline button {
+padding: 10px 20px;
+margin: 5px 10px 5px 0;
+background-color: lightgreen;
+border: 1px solid #ddd;
+color: white;
+}
+
+.form-inline button:hover {
+background-color: lightgreen;
+}
+
+.right{
+margin-left: auto;
+margin-right: 0;
+float: right;
+}
+
+.titles{
+padding-left: 10px;
+}
+
+/* buttoes */
+.processbutton {
+padding: 10px 20px;
+margin: 5px 10px 5px 0;
+background-color: lightgreen;
+border: 1px solid #ddd;
+color: white;
+}
+
+/* verticalidade depois de 800px */
+@media (max-width: 800px) {
+.form-inline input {
+margin: 10px 0;
+}
+
+.form-inline {
+flex-direction: column;
+align-items: stretch;
+}
+}
