@@ -1,9 +1,14 @@
+
+![image](https://user-images.githubusercontent.com/61696448/125817362-f7c10c06-07fb-46b5-abc5-8d798ef76a9d.png)
+
+
 # HyperledgerSmartContractGenerator
  
 This project was developed associated with the curricular unit of Project III of the 3rd year of the Graduation Degree in Informatics’ Engineering (Computer Science) at the School of Technology and Management of the Polytechnic institute of Viana do Castelo
 
-The conversion part is finished however the tasks smart contract is not completed
+The main objective of this project is the development a platform that allows users to insert their bpmn files and convert them into a smart contract ready to be deployed to the blockchain.
 
+The conversion part is finished however the tasks smartcontract file is not completed
 
 
 # Conversion methodology
@@ -32,6 +37,21 @@ Besides getting the id and name from the datastores,participant,tasks themselfs 
 - Run the app 
 
       $ npm start
+
+
+
+# Using the generator
+
+- Drop a .bpmn file in the loader
+- Click process bpmn
+- Press the ok button incase your bpmn has missing information
+- Make desired alterations
+- Press the Download button
+
+![image](https://user-images.githubusercontent.com/61696448/125817845-144cb25b-ed1b-4d5d-be1c-5e76e1d040d9.png)
+![image](https://user-images.githubusercontent.com/61696448/125817907-2e260127-fd1c-43cf-a21f-857a2d92b98f.png)
+
+
 
 # Smart contract install and deployment
 
@@ -104,6 +124,7 @@ These can be found here https://hyperledger-fabric.readthedocs.io/en/release-1.4
 This should be your result: 
 
 ![image](https://user-images.githubusercontent.com/61696448/125814898-5ad58b8d-23f7-4fc4-b673-33b100ef08e1.png)
+
 
 
 
