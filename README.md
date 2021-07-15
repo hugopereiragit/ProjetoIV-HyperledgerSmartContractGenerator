@@ -140,4 +140,6 @@ The reason for so is that when deploying to the chaincode using the commented co
 
 The solution might be to use json 
 
+Furthermore - Finalize the tasks.js, etc
+
 
