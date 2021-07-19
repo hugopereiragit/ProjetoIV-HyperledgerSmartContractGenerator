@@ -4,7 +4,7 @@
 
 # HyperledgerSmartContractGenerator
  
-This project was developed associated with the curricular unit of Project III of the 3rd year of the Graduation Degree in Informatics’ Engineering (Computer Science) at the School of Technology and Management of the Polytechnic institute of Viana do Castelo
+This project was developed associated with the curricular unit of Project IV of the 3rd year of the Graduation Degree in Informatics’ Engineering (Computer Science) at the School of Technology and Management of the Polytechnic institute of Viana do Castelo
 
 The main objective of this project is the development a platform that allows users to insert their bpmn files and convert them into a smart contract ready to be deployed to the blockchain.
 
